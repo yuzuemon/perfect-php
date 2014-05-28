@@ -8,3 +8,6 @@ class Employee{
 
 $yamada = new Employee();
 $yamada->work();          // 書類を整理しています
+
+$suzuki = $yamada; // 参照(同じオブジェクト)
+$clonedYamada = clone $yamada; // 複製(別のオブジェクト)
